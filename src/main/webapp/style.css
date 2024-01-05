@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+body{
+	text-align: center;
+	background: royalblue;
+}
+.head{
+	color: white;
+	font-size: 8vh;
+	font-weight: 700;
+}
+.btn{
+	border: none;
+	padding: 5px;
+	border-radius : 3px;
+	font-weight: 700;
+	background: white;
+	color: black;
+}
+form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.inputGroup{
+	padding: 2vh;
+	display: flex;
+}
+.inputGroup input{
+	margin: 0 2vh;
+	padding: 5px;
+	width: 50%;
+}
+.btnGroup{
+	margin: 5vh 0;
+}
+.btnGroup button{
+	padding: 2vh 5vh;
+	margin-right: 20px;
+	font-size:larger;
+}
